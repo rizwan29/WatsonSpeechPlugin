@@ -73,8 +73,8 @@ public class Stt extends CordovaPlugin implements ISpeechToTextDelegate{
     private boolean initSTT() {
         STTConfiguration sConfig = new STTConfiguration(STTConfiguration.AUDIO_FORMAT_OGGOPUS, STTConfiguration.SAMPLE_RATE_OGGOPUS);
         // DISCLAIMER: please enter your credentials or token factory in the lines below
-        sConfig.basicAuthUsername = "<your-username>";
-        sConfig.basicAuthPassword = "<your-password>";
+        sConfig.basicAuthUsername = "b00be122-b0f1-49ad-898b-be115da65efa";
+        sConfig.basicAuthPassword = "R8UU8zYIrfuA";
 
         SpeechToText.sharedInstance().initWithConfig(sConfig, this);
 
